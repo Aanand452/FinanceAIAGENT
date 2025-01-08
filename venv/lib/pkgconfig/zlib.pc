@@ -1,0 +1,13 @@
+prefix=/Users/apple/Downloads/FincialAgent/venv
+exec_prefix=/Users/apple/Downloads/FincialAgent/venv
+libdir=/Users/apple/Downloads/FincialAgent/venv/lib
+sharedlibdir=/Users/apple/Downloads/FincialAgent/venv/lib
+includedir=/Users/apple/Downloads/FincialAgent/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
